@@ -18,6 +18,8 @@ class EventViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     search_fields = ["title", "location"]
     ordering_fields = ["start_time", "created_at"]
+    filterset_fields = ["location", "organizer"]
+
 
     def get_queryset(self):
         qs = (
