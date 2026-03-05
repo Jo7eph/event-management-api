@@ -1,8 +1,24 @@
 asgiref==3.11.1
+ HEAD
+Django==6.0.3
+django-cors-headers==4.9.0
+
+ HEAD
+Django==6.0.2
+>>>>>>> 74436af (Initial capstone: Event Management API)
+django-filter==25.2
+djangorestframework==3.16.1
+ HEAD
+
+djangorestframework_simplejwt==5.5.1
+psycopg2-binary==2.9.11
+PyJWT==2.11.0
+
 Django==6.0.3
 django-cors-headers==4.9.0
 django-filter==25.2
 djangorestframework==3.16.1
+ 74436af (Initial capstone: Event Management API)
 markdown-it-py==4.0.0
 mdurl==0.1.2
 numpy==2.4.2
@@ -11,5 +27,9 @@ Pygments==2.19.2
 python-dateutil==2.9.0.post0
 rich==14.3.2
 six==1.17.0
+ HEAD
+
+ 6364fc4 (Initial capstone: Event Management API)
+ 74436af (Initial capstone: Event Management API)
 sqlparse==0.5.5
 tzdata==2025.3
